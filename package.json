@@ -1,0 +1,18 @@
+{
+    "name": "Container",
+    "author": "4D",
+    "version": "1.0.0",
+    "copyright": "(c) 2013 4D",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wakanda/Container.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda" : ">= 9"},
+    "license": "MIT", 
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "Container/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Container/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
