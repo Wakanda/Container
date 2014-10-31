@@ -1,6 +1,7 @@
 {
     "name": "Container",
     "author": "4D",
+    "category" : "Wakanda",
     "version": "1.0.0",
     "copyright": "(c) 2013 4D",
     "repository": {
