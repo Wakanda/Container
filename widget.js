@@ -6,6 +6,10 @@ WAF.define('Container', ['waf-core/widget'], function(widget) {
 
     	},
         init: function() {
+            this.style({
+                'box-sizing' : '',
+                'cursor' : ''
+            });
         	if(!this.hasClass('well'))
         		this.addClass('well');
         }
