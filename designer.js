@@ -27,15 +27,15 @@
     },{
         'name':'startResize',
         'description':'On Start Resize',
-        'category':'Resize'
+        'category':'Resize Events'
     },{ 
         'name':'onResize',
         'description':'On Resize',
-        'category':'Resize'
+        'category':'Resize Events'
     },{ 
         'name':'stopResize',
         'description':'On Stop Resize',
-        'category':'Resize'
+        'category':'Resize Events'
     },{ 
         'name':'touchstart',
         'description':'On Touch Start',
@@ -43,6 +43,10 @@
     },{ 
         'name':'touchend',
         'description':'On Touch End',
+        'category':'Touch Events'
+    },{ 
+        'name':'touchmove',
+        'description':'On Touch Move',
         'category':'Touch Events'
     },{ 
         'name':'touchcancel',
@@ -57,14 +61,13 @@
 
     Container.setPanelStyle({
         'fClass': true, //This property is for the design panel
-        'text': true,
-        'textShadow': true,
+        'text': false,
+        'textShadow': false,
         'dropShadow': true, 
         'innerShadow': true,
         'background': true,
         'border': true,
         'sizePosition': true,
-        'label': true,
-        'disabled': ['border-radius']
+        'label': true
     });
 });
