@@ -2,9 +2,6 @@ WAF.define('Container', ['waf-core/widget'], function(widget) {
     "use strict";
 
     var Container = widget.create('Container', {
-        addTabIndex : function(){
-
-        },
         init: function() {
             this.removeClass('well well-sub');
             if($(this.node).closest('.well').length > 0){
@@ -17,5 +14,7 @@ WAF.define('Container', ['waf-core/widget'], function(widget) {
     });
     Container.inherit(WAF.require('waf-behavior/layout/container'));
 
+    Container.addTabIndex();
+    
     return Container;
 });
