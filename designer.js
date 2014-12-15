@@ -29,18 +29,6 @@
         'description':'On Mouse Move',
         'category':'Mouse Events'
     },{ 
-        'name':'startResize',
-        'description':'On Start Resize',
-        'category':'Resize Events'
-    },{ 
-        'name':'onResize',
-        'description':'On Resize',
-        'category':'Resize Events'
-    },{ 
-        'name':'stopResize',
-        'description':'On Stop Resize',
-        'category':'Resize Events'
-    },{ 
         'name':'touchstart',
         'description':'On Touch Start',
         'category':'Touch Events'
