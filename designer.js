@@ -12,6 +12,10 @@
         'name':'mousedown', 
         'description':'On Mouse Down',
         'category':'Mouse Events'
+    },{
+        'name':'mousemove',
+        'description':'On Mouse Move',
+        'category':'Mouse Events'
     },{ 
         'name':'mouseout',
         'description':'On Mouse Out',
@@ -24,13 +28,9 @@
         'name':'mouseup',
         'description':'On Mouse Up',
         'category':'Mouse Events'
-    },{
-        'name':'mousemove',
-        'description':'On Mouse Move',
-        'category':'Mouse Events'
     },{ 
-        'name':'touchstart',
-        'description':'On Touch Start',
+        'name':'touchcancel',
+        'description':'On Touch Cancel',
         'category':'Touch Events'
     },{ 
         'name':'touchend',
@@ -41,8 +41,8 @@
         'description':'On Touch Move',
         'category':'Touch Events'
     },{ 
-        'name':'touchcancel',
-        'description':'On Touch Cancel',
+        'name':'touchstart',
+        'description':'On Touch Start',
         'category':'Touch Events'
     });
 
