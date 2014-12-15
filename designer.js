@@ -25,6 +25,10 @@
         'description':'On Mouse Up',
         'category':'Mouse Events'
     },{
+        'name':'mousemove',
+        'description':'On Mouse Move',
+        'category':'Mouse Events'
+    },{ 
         'name':'startResize',
         'description':'On Start Resize',
         'category':'Resize Events'
@@ -55,8 +59,9 @@
     });
 
     Container.addLabel({
-        'defaultValue': '',
-        'position': 'top'
+        defaultValue: '',
+        position: 'top',
+        description: 'Label for widget'
     });
 
     Container.setPanelStyle({
