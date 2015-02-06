@@ -13,8 +13,6 @@ WAF.define('Container', ['waf-core/widget'], function(widget) {
         }
     });
     Container.inherit(WAF.require('waf-behavior/layout/container'));
-
-    Container.addTabIndex();
     
     return Container;
 });
